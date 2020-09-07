@@ -1,0 +1,6 @@
+p=int(input())
+t=int(input())
+r=float(input())
+n=int(input())
+c=p*((1+(r/n))**(n*t))
+print('compound interest is',c)
